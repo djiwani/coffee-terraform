@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Lambda zips
+lambda/orderProcessor.zip
+lambda/orderRetrieve.zip
+
+# Misc
+.DS_Store
